@@ -1,0 +1,82 @@
+/*:::: TYPOGRAPHY ::::*/
+
+h1:first-child, h2:first-child, h3:first-child, h4:first-child {
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+  font-family: 'Edmondsans-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	color: $ltblack;
+	@include text-shadow(0, 1px, 1px, $white);
+}
+
+h1, h2, h3, h4 {
+  margin-top: 18px;
+}
+
+h3, h4, h5, h6 {
+  line-height: 18px;
+}
+
+h1, h2 {
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+
+p, pre, address, li, label {
+  font-size: 20px;
+  line-height: 1.5em;
+  position: relative;
+  top: 5px;
+  font-family: Fanwood, Georgia, 'Times New Roman', Times, serif;
+  @include text-shadow(0, 1px, 1px, $white);
+  color: $ltblack;
+}
+
+h6 {
+  font-size: 13px;
+  top: 5px
+}
+
+h5 {
+  font-size: 15px;
+  top: 4px;
+}
+
+h4 {
+  font-size: 18px;
+  top: 2px;
+}
+
+h3 {
+  font-size: 22px;
+  top: 1px;
+}
+
+h2 {
+  font-size: 28px;
+  top: 8px;
+}
+
+h1 {
+  font-size: 36px;
+  top: 5px;
+}
+
+a, a:visited {
+  color: $orange;
+  @include text-shadow(0, 1px, 1px, $white);
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: $ltblack;
+  @include text-shadow(0, 1px, 1px, $white);
+}
+
+.secondary p {
+  font-size: 14px;
+  line-height: 20px;
+}

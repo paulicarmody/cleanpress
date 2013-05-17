@@ -1,0 +1,55 @@
+/*:::: CUSTOM FONTS ::::*/
+
+@font-face {
+font-family: 'Edmondsans';
+src: url('../font/edmondsans-regular-webfont.eot'); /* IE9 Compat Modes */
+src: url('../font/edmondsans-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/edmondsans-regular-webfont.svg#edmondsans_regularregular') format('svg'), /* Legacy iOS */
+	url('../font/edmondsans-regular-webfont.woff') format('woff'), /* Modern Browsers */
+	url('../font/edmondsans-regular-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+font-family: 'Edmondsans-Medium';
+src: url('../font/edmondsans-medium-webfont.eot'); /* IE9 Compat Modes */
+src: url('../font/edmondsans-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/edmondsans-medium-webfont.svg#edmondsans_mediumregular') format('svg'), /* Legacy iOS */
+	url('../font/edmondsans-medium-webfont.woff') format('woff'), /* Modern Browsers */
+	url('../font/edmondsans-medium-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+font-family: 'Edmondsans-Bold';
+src: url('../font/edmondsans-bold-webfont.eot'); /* IE9 Compat Modes */
+src: url('../font/edmondsans-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/edmondsans-bold-webfont.svg#edmondsans_boldregular') format('svg'), /* Legacy iOS */
+	url('../font/edmondsans-bold-webfont.woff') format('woff'), /* Modern Browsers */
+	url('../font/edmondsans-bold-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+font-family: 'Fanwood';
+src: url('../font/fanwood-webfont.eot'); /* IE9 Compat Modes */
+src: url('../font/fanwood-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/fanwood-webfont.svg#FanwoodRegular') format('svg'), /* Legacy iOS */
+	url('../font/fanwood-webfont.woff') format('woff'), /* Modern Browsers */
+	url('../font/fanwood-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+font-family: 'Fanwood-italic';
+src: url('../font/fanwood_italic-webfont.eot'); /* IE9 Compat Modes */
+src: url('../font/fanwood_italic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/fanwood_italic-webfont.svg#FanwoodItalic') format('svg'), /* Legacy iOS */
+	url('../font/fanwood_italic-webfont.woff') format('woff'), /* Modern Browsers */
+	url('../font/fanwood_italic-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+font-family: 'SourceCodePro';
+src: url('../font/SourceCodePro-Regular-webfont.eot'); /* IE9 Compat Modes */
+src: url('../font/SourceCodePro-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../font/SourceCodePro-Regular-webfont.svg#SourceCodeProRegular') format('svg'), /* Legacy iOS */
+	url('../font/SourceCodePro-Regular-webfont.woff') format('woff'), /* Modern Browsers */
+	url('../font/SourceCodePro-Regular-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}

@@ -1,0 +1,107 @@
+/****************************************\
+ * Fraction.less Responsive grid 		*
+ *							 	  		*
+ * Author: 	Bill Patrianakos 	  		*
+ * Site:	billpatrianakos.me 	  		*
+ * License: BSD					  		*
+\****************************************/
+
+/*:::: CONTAINERS ::::*/
+
+.container {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.row {
+width: 100%;
+max-width: 990px;
+min-width: 755px;
+margin: 0 auto;
+overflow: hidden;
+}
+
+/*:::: COLUMNS ::::*/
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven {
+margin-right: 3.8%;
+float: left;
+min-height: 1px;
+}
+
+.row .one {
+width: 4.85%;
+}
+
+.row .two {
+width: 13.45%;
+}
+
+.row .three {
+width: 22.05%;
+}
+
+.row .four {
+width: 30.75%;
+}
+
+.row .five {
+width: 39.45%;
+}
+
+.row .six {
+width: 48%;
+}
+
+.row .seven {
+width: 56.75%;
+}
+
+.row .eight {
+width: 65.4%;
+}
+
+.row .nine {
+width: 74.05%;
+}
+
+.row .ten {
+width: 82.7%;
+}
+
+.row .eleven {
+width: 91.35%;
+}
+
+.row .twelve {
+width: 100%;
+float: left;
+}
+
+/*:::: FLOATS ::::*/
+
+.left {
+ 	float: left;
+ }
+
+ .right {
+ 	float: right;
+ }
+
+ /* Last div in a row can't mess up our nice grid */
+
+.last {
+margin-right: 0px;
+}
+
+/*:::: RESPONSIVE IMAGES ::::*/
+
+img, object, embed {
+max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+/* !! MEDIA QUERIES ARE AT THE BOTTOM OF 'style.less' - LEAVE THEM THERE FOR GOOD REASON !! */
