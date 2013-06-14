@@ -35,12 +35,26 @@ article{
 	.entry-content{
 		line-height: 1.5;
 		text-align: left;
-		a{
-			&:hover{
-				text-decoration:none;
-
-			}
+		
+				a {
+ 			text-decoration:none;
+			color:#bf0222;
+			-webkit-transition:border .25s linear;
+			-moz-transition:border .25s linear;
+			-ms-transition:border .25s linear;
+			transition:border .25s linear;
+			outline:none;
 		}
+
+		a:link,a:visited {
+			border-bottom:1px solid rgba(191,2,34,0);
+		}
+
+		a:hover {
+			border-bottom:1px solid #bf0222;
+		}
+
+		
 		.more-link{
 			display: block;
 			margin-top: 16px;
