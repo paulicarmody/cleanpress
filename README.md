@@ -1,8 +1,8 @@
 CleanPress
 ==========
-CleanPress is an elegant, clean & white minimal and responsive theme for [Octopress](http://octopress.org). It's a fork from the OctoPress Slash Theme with substantial changes with work still to do.
+CleanPress is an elegant, clean & white minimal and responsive theme for [Octopress](http://octopress.org) and originally a fork of the OctoPress Slash Theme.
 
-Check out the theme in action [here](http://carmo.org.uk).
+Check out the theme in action [here](http://macjasp.github.com.
 
 
 Install
