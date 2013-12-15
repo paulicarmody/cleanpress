@@ -65,6 +65,17 @@
 					color: $color-gray01;
 				}
 			}
+			.date, .tags, .comments {
+			    padding-left: 30px;
+			    position: relative;
+			    &:before{
+			      color: $color-gray02;
+			      font: 1.3em $font-icon;
+			      line-height: 1.6em;
+			      position: absolute;
+			      left: 0;
+			    }
+			}
 			.date:before{content: "\f073";}
 			.tags:before{content: "\f02c";}
 			.comments:before{content: "\f075";}
