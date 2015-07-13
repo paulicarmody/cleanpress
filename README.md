@@ -9,7 +9,7 @@ Install
 -------
     $ cd octopress
     $ git clone git://github.com/macjasp/cleanpress.git .themes/cleanpress
-    $ rake install['cleanpress']
+    $ rake install['cleanpress'] (or rake "install[cleanpress]")
     $ rake generate
 
 
